@@ -1,19 +1,24 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BGScroller
     - DestroyByBoundary
     - DestroyByContact
     - DestroyByTime
+    - EvasiveManeuver
     - GameController
     - Mover
     - PlayerController
     - RandomRotator
+    - WeaponController
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -61,28 +66,36 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9274}
     - Class: 114
-      Script: {instanceID: 9328}
+      Script: {instanceID: 9312}
     - Class: 114
-      Script: {instanceID: 9334}
+      Script: {instanceID: 9330}
     - Class: 114
-      Script: {instanceID: 9340}
+      Script: {instanceID: 9336}
     - Class: 114
-      Script: {instanceID: 9384}
+      Script: {instanceID: 9342}
     - Class: 114
       Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9436}
+      Script: {instanceID: 9388}
     - Class: 114
-      Script: {instanceID: 9670}
+      Script: {instanceID: 9438}
     - Class: 114
-      Script: {instanceID: 10186}
+      Script: {instanceID: 9672}
     - Class: 114
-      Script: {instanceID: 10376}
+      Script: {instanceID: 10188}
     - Class: 114
-      Script: {instanceID: 10560}
+      Script: {instanceID: 10378}
+    - Class: 114
+      Script: {instanceID: 10562}
+    - Class: 114
+      Script: {instanceID: 10580}
+    - Class: 114
+      Script: {instanceID: 16902}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -155,6 +168,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7df6863109f28e8a3910ebecffad6af3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WeaponController
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -817,7 +836,7 @@ ScriptsOnlyBuild:
     className: Done_BGScroller
   - hash:
       serializedVersion: 2
-      Hash: 8e3818abe201b564b40ceaf987ad04a5
+      Hash: 96579b1d7c32aebb6c65db101ee7a10b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameController
@@ -827,6 +846,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: be2d1663d6bc8ce39ce9c8dea6a963c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BGScroller
   - hash:
       serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
@@ -845,8 +870,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 757d56d0910fdc18d03e5b801da35a3f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EvasiveManeuver
   platform: 19
   scenePathNames:
   - Assets/_Scenes/Main.unity
   playerPath: C:/Users/Jules/Desktop/Computer As a Medium/Tutorial-3/Tutorial 3 -
-    Space Shooter/Builds/Tutorial 3 - Space Shooter.exe
+    Space Shooter/Builds/Build2/Tutorial 3 - Space Shooter.exe
